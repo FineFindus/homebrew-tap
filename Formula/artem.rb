@@ -1,7 +1,6 @@
 # Create with inspiration from https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/ripgrep.rb and https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/bat.rb
 # Thanks a lot
 class Artem < Formula
-  version "0.6.1"
   desc "Is a small cli program written in rust to easily convert images to ascii art"
   homepage "https://github.com/FineFindus/artem"
   url "https://github.com/FineFindus/artem/archive/refs/tags/v#{version}.tar.gz"
