@@ -1,5 +1,6 @@
 # Create with inspiration from https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/ripgrep.rb and https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/bat.rb
 # Thanks a lot
+# https://brew.sh/2020/11/18/homebrew-tap-with-bottles-uploaded-to-github-releases/
 class Artem < Formula
   desc "Is a small cli program written in rust to easily convert images to ascii art"
   homepage "https://github.com/FineFindus/artem"
