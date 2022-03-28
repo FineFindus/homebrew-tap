@@ -24,6 +24,6 @@ class Artem < Formula
   end
 
   test do
-    assert_match "artem 0.6.1", shell_output("#{bin}/artem -V")
+    assert_match "artem 0.6.0\n", shell_output("#{bin}/artem -V")
   end
 end
