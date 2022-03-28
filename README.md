@@ -2,7 +2,7 @@
 
 ## About
 
-This tap contains the needed formulaes for installing [artem](https://github.com/FineFindus/artem) with `brew` 
+This tap contains the needed formula for installing [artem](https://github.com/FineFindus/artem) with `brew`
 
 ## How do I install these formulae?
 
