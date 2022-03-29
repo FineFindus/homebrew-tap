@@ -8,10 +8,10 @@ class Artem < Formula
   url "https://github.com/FineFindus/artem/archive/refs/tags/v0.6.1.tar.gz"
   sha256 "5a961e2afd3d0546add6edd2c542fa8e5752537da75b1a1cc0d3cace9b217d1e"
   license "MPL-2.0"
-  
+
   bottle do
     root_url "https://github.com/finefindus/homebrew-tap/releases/download/artem-0.6.1"
-    sha256 cellar: :any_skip_relocation, big_sur:     "6f44c0778e2dd4b40425aafc70918455edee4b0c9d7a4aaad7ed54dc2dc6ed58"
+    sha256 cellar: :any_skip_relocation, big_sur:      "6f44c0778e2dd4b40425aafc70918455edee4b0c9d7a4aaad7ed54dc2dc6ed58"
     sha256 cellar: :any_skip_relocation, x86_64_linux: "c6bf9495ee9a79d77599002e1a58d1c2c7bf60f3a80dbaf32690c76e6c7d1449"
   end
 
