@@ -31,6 +31,6 @@ class Artem < Formula
   end
 
   test do
-    assert_match "Written 643 bytes to test.ans\n", shell_output("#{bin}/artem -o test.ans")
+    assert_match "Written 643 bytes to test.ans\n", shell_output("#{bin}/artem #{test_fixtures("test.png")} -o test.ans")
   end
 end
