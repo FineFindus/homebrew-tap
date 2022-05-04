@@ -31,7 +31,6 @@ class Artem < Formula
   end
 
   test do
-    system bin/"artem", test_fixtures("test.png"), "-o #{testpath}/output.txt"
-    assert_predicate testpath/"output.txt", :exist?
+    assert_match "Written 643 bytes to test.ans\n", shell_output("#{bin}/artem -o test.ans")
   end
 end
