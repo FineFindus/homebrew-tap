@@ -31,7 +31,7 @@ class Artem < Formula
   end
 
   test do
-    system bin/"artem", "test.jpg -o output.txt"
+    system bin/"artem", testpath/test.jpg, "-o output.txt"
     assert_predicate testpath/"output.txt", :exist?
   end
 end
