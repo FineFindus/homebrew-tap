@@ -31,6 +31,6 @@ class Artem < Formula
   end
 
   test do
-    assert_match "[ERROR] File s does not exist\n[ERROR] Artem exited with code: 66\n", shell_output("#{bin}/artem")
+    assert_match "[ERROR] File s does not exist\n[ERROR] Artem exited with code: 66\n", shell_output("#{bin}/artem s")
   end
 end
