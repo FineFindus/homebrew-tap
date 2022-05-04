@@ -31,6 +31,7 @@ class Artem < Formula
   end
 
   test do
-    assert_match "error: The following required arguments were not provided:\n    <INPUT>\nUSAGE:\n    artem [OPTIONS] <INPUT>\nFor more information try --help\n", shell_output("#{bin}/artem s")
+    system bin/"artem", "test.jpg -o output.txt"
+    assert_predicate testpath/"output.txt", :exist?
   end
 end
