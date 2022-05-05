@@ -10,10 +10,9 @@ class Artem < Formula
   license "MPL-2.0"
 
   bottle do
-    root_url "https://github.com/FineFindus/homebrew-tap/releases/download/artem-0.6.1"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, big_sur:      "8a5363ca9a960ca8a4c00f1e84c9112a1632023ee80ed8b793ede7bf77ea843d"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "dc058a30237cd868ae3234624eade248166d583e326817eac9ca1bff41c2601b"
+    root_url "https://github.com/FineFindus/homebrew-tap/releases/download/artem-1.0.3"
+    sha256 cellar: :any_skip_relocation, big_sur:      "e657cc63076179fba9a8cf92c5240bdf7416d415d16e035260aee3083d6a7d39"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "890c30d81daf47bb107ce3987b5af57881284dd4f80991d79ce9b6ffd8b16f79"
   end
 
   depends_on "rust" => :build
