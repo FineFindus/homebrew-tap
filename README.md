@@ -1,4 +1,5 @@
 # FineFindus's Homebrew Tap
+![maintenance-status](https://img.shields.io/badge/maintenance-passively--maintained-yellowgreen.svg)
 
 ## About
 This tap contains formulaes for finefindus's projects. It currently only includes `artem`.
