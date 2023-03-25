@@ -5,8 +5,8 @@
 class Artem < Formula
   desc "Is a small cli program written in rust to easily convert images to ascii art"
   homepage "https://github.com/FineFindus/artem"
-  url "https://github.com/FineFindus/artem/archive/refs/tags/v1.1.5.tar.gz"
-  sha256 "7419eeb347838bddbe1042ec3bc0e02576c08d3cdbbcc053cca37944fc631a61"
+  url "https://github.com/FineFindus/artem/archive/refs/tags/v1.1.6.tar.gz"
+  sha256 "997ee8213c3dd92fca6de0c0e104d9a5861126bb299a2a03832c7b978936494d"
   license "MPL-2.0"
 
   bottle do
